@@ -1,0 +1,85 @@
+    body {
+	margin:0px;
+	padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    fill: solid;
+    color: #000;
+
+}
+
+header ul {
+    display:flex;
+    justify-content: flex-end;
+}
+header li {
+    margin-left: 24px;
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+}
+
+header a {
+    position: relative;
+    right: 10px;
+    margin-left: 10px;
+    width: 96px;
+    color: blue;
+}
+
+header a {
+     border: 1px solid;
+     padding: 9px 10px;
+     background: white;
+     text-decoration: none;
+
+}
+
+header div {
+    position: relative;
+    bottom: 35px;
+    left: 13px;
+    line-height: 5px;
+    font-size: 40px;
+ }
+
+ .description {
+    width: 1512px;
+ }
+
+ #foto,#fotoq,#fotoe {
+    position: relative;
+ }
+
+ #fotoq {
+    top: -334px;
+    padding-left: 1276px;
+    z-index: 3;
+ }
+
+#foto {
+    padding-left: 1270px;
+    top: 100px;
+    z-index: 2;
+}
+
+#fotoe {
+    padding-left: 1270px;
+    top: -480px;
+    z-index: 1;
+}
+
+.title {
+    position: relative;
+    bottom: 800px;
+    left: 350px;
+    font-size: 47px;
+}
+
+h1::before{
+    content: "_";
+    width: 40px;
+    height: 30px;
+}
